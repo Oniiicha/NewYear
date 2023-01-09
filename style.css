@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    padding: 20px 0px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.nav__link {
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0px 0px 3px black;
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/boxes-with-gifts-and-christmas-decorations-on-blue-surface.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title__top {
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #ff7f7feb;
+    font-weight: 400;
+}
+
+.title__btm {
+    text-transform: uppercase;
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #ff7f7feb;
+    font-weight: 400;
+}
+
+.main__text {
+    width: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.main__link {
+    display: block;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 10px;
+    min-width: 165px;
+    font-weight: 500;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.desc {
+    display: flex;
+}
+
+.section__col {
+    height: 100%;
+    width: 50%;
+}
+
+.desc__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.subtitle {
+    color: #bb9d45;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.subtitle::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+}
+
+.desc__info {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 50px;
+    background: url(img/pngwing.com\ \(6\).png) no-repeat top right / 300px, url(img/pngwing.com\ \(1\).png) no-repeat center bottom / 300px;
+}
+
+.compliment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/1661356891_3-oir-mobi-p-novogodnii-fon-dlya-afishi-pinterest-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.compliment__content {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.compliment__img {
+    height: 100%;
+}
+
+.compliment__text {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    font-size: 20px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
